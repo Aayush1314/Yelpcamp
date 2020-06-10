@@ -1,0 +1,39 @@
+.thumbnail img{
+	width: 100%;	
+}
+.thumbnail {
+	padding: 0;	
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  	background-image: url("https://www.michigan.org/sites/default/files/styles/15_6_desktop/public/camping-hero_0_0.jpg?itok=mgGs0-vw&timestamp=1520373602");
+
+  	/* Full height */
+ 	height: 100%;
+
+  	/* Center and scale the image nicely */
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	
+}
+
+#noMargin{
+	margin-bottom: 0px;
+}
+
+#deleteForm{
+	display: inline;
+}
+#imageSize{
+	height: 150px;
+}
