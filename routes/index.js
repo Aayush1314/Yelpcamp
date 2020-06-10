@@ -77,7 +77,7 @@ router.post("/forgot", function(req, res){
 				user.save(function(err){
 					done(err, token, user)
 				})
-			})
+			})		
 		},
 		
 		function(token, user, done) {
@@ -86,7 +86,7 @@ router.post("/forgot", function(req, res){
        			host: 'smtp.gmail.com', 
        			auth: {
           			user: 'aayushjainchandwar@gmail.com',
-          			pass: 'aayushjain'
+          			pass: ********
         		}
       		});
       		var mailOptions = {
@@ -154,7 +154,7 @@ router.post("/reset/:token", function(req, res){
 				host:"smtp.gmail.com",
         		auth: {
           			user: 'aayushjainchandwar@gmail.com',
-          			pass: "aayushjain"
+          			pass: *********
         		}
       		});
       		var mailOptions = {
